@@ -6,6 +6,11 @@ body {
 
 }
 
+
+html {
+   scroll-behavior: smooth;
+   }
+
 div, p, input, button, form, span, a, ul, li {
    box-sizing: border-box;
 } 
@@ -41,10 +46,36 @@ background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(112,58,90,1) 10
    transition-duration: 2s;
 
 }
+
+.navigation a {
+   text-decoration: none;
+   color: #FFFFFF;
+ }
+ 
+ .navigation {
+   padding-bottom: 30px;
+    color: #FFFFFF; 
+    height: 50px;  
+    max-width: 720px;
+ }
+
+ .navigation  ul {
+   display: flex;
+   justify-content: space-between;
+   width: 720px;
+}
+
+.navigation li {
+  list-style: none;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: center;
+}
 .wrapper {
    display: flex;
    justify-content: space-between;
    align-items:center; 
+   padding-top: 30px;
 }
 
 .photo {
