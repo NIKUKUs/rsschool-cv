@@ -8,11 +8,23 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com"> 
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu&display=swap" rel="stylesheet">
+
 </head>
+
 <body>
 	<header id="header" class="header">
 		<div class="container">
+		<div class="wrapper">
 			<img src="img/logo.png" alt="rs-school" class="logo" id="logo">
+			<nav class="navigation">
+				<ul>
+					<li><a href="#info">Greetings</a></li>
+					<li><a href="#mysels">About myself</a></li>
+					<li><a href="#code">Code Sample</a></li>
+					<li><a href="#footer">GitHub</a></li>
+				</ul>
+			</nav>
+		</div>
 		<div class="wrapper" id="wrapper">
 			<div class="offer">
 				<h1 class="title">
@@ -29,13 +41,13 @@
 			<img src="img/photo.png" alt="my photo" class="photo">
 		</div>
 		</div>
-		<article class="container info"><h3>Hi, I am a Beginner Web Developer.</h3> I'm interested in the front-end direction. I studied at WAYUP courses, html academy and some others. During the training, I completed several projects using JS, CSS, HTML. I consider my strengths to be responsibility, quick learning, curiosity.
+		<article id="info" class="container info"><h3>Hi, I am a Beginner Web Developer.</h3> I'm interested in the front-end direction. I studied at WAYUP courses, html academy and some others. During the training, I completed several projects using JS, CSS, HTML. I consider my strengths to be responsibility, quick learning, curiosity.
 </article>
 	</header>
 	<main>
 	<section id="mysels" class="myself">
 		<div class="container">
-			<h2 class="section-title">About myself</h2>
+			<h2 id="section-title" class="section-title">About myself</h2>
 			<div class="skills">
 				<div class="skill">
 					<h3 class="skill-title">
@@ -65,7 +77,7 @@
 					</h3>
 						<p class="skill-text">	
 							German - A2<br>
-							English - A1 (but I try to improve my level)
+							English - A2 (but I try to improve my level)
 					</p>
 				</div>
 			</div>
@@ -75,23 +87,24 @@
 	<section id="code" class="code">
 		<div class="container">
 			<h2 class="section-title">Code Sample</h2>
-			<pre>
-&lt;html>
-	&lt;head>
-		&lt;title>время до конца пары&lt;&#47;title>
-	&lt;&#47;head>
-		&lt;body> до конца пары осталось
-			&lt;SCRIPT>
-			var a, b, res, mydate= new Date (prompt ('введите время 
-			в формате мм/дд/гггг чч:мм','')), 
-			now = new Date(),
-			subtract = (mydate - now)/ 864e5*24*60;
-			document.write(subtract);
-		&lt;&#47;SCRIPT>
-			минут
-	&lt;&#47;body>
-&lt;&#47;html>
-		</pre>
+			
+<style type="text/css" scoped="scoped">.slgh,.slgh code,.slgh ul, .slgh ol{margin:0;padding:0;border:0;outline:0;background:none;text-align:left;float:none;vertical-align:baseline;position:static;left:auto;top:auto;right:auto;bottom:auto;height:auto;width:auto;line-height:1.1em;font-family:'Courier New', Courier, monospace;font-weight:normal;font-style:normal;font-size:1em;min-height:inherit;min-height:auto;}
+.slgh{background:#fff;width:99%;margin:1em 0;padding:1px;position:relative;overflow:auto;overflow-y:hidden;}
+.slgh ul{list-style:none;margin-left:.5em}.slgh ol{margin-left:3.5em}
+.slgh .bold {font-weight:bold;}.slgh .italic {font-style:italic;}
+.slgh .no-wrap li{white-space:pre;}.slgh li{padding-left:.5em;}
+.slgh li{border-left:3px solid #ccc;color:#666;}
+.slgh li.alt1{background:hsl(21, 51%, 83%);padding-left: 1em;}
+.slgh li.alt2{background:#af6e4b9c;padding-left: 1em;}
+.slgh .plain, .slgh .plain a{color:#000;}.slgh .comments, 
+.slgh .comments a{color:#008200;}.slgh .string, .slgh .string a{color:blue;}
+.slgh .keyword{color:#4b253c;font-weight:bold;}.slgh .preprocessor {color:gray;}
+.slgh .variable{color:#a70;}.slgh .value{color:#090;}.slgh .functions{color:#ff1493;}
+.slgh .constants{color:#0066CC;}.slgh .script{background:yellow;}
+.slgh .color1,.slgh .color1 a{color:#808080;}.slgh .color2,.slgh .color2 a{color:#ff1493;}
+.slgh .color3,.slgh .color3 a{color:red;}.slghcr{margin:-.5em 1.2em}
+.slghcr a{color:#aaa;background:#fff;text-decoration:none;border-bottom:1px dotted #aaa;font-size:.6em;font-family:arial}</style>
+<div id="hler_529612" class="slgh"><ol class="lines no-wrap"><li class="alt1"><code class="plain">&lt;</code><code class="keyword">html</code><code class="plain">&gt;</code></li><li class="alt2">&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">&lt;</code><code class="keyword">head</code><code class="plain">&gt;</code></li><li class="alt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">&lt;</code><code class="keyword">title</code><code class="plain">&gt;время до конца пары&lt;/</code><code class="keyword">title</code><code class="plain">&gt;</code></li><li class="alt2">&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">&lt;/</code><code class="keyword">head</code><code class="plain">&gt;</code></li><li class="alt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">&lt;</code><code class="keyword">body</code><code class="plain">&gt; до конца пары осталось</code></li><li class="alt2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">&lt;</code><code class="keyword">SCRIPT</code><code class="plain">&gt;</code></li><li class="alt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">var a, b, res, mydate= new Date (prompt ('введите время </code></li><li class="alt2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">в формате мм/дд/гггг чч:мм','')), </code></li><li class="alt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">now = new Date(),</code></li><li class="alt2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">subtract = (mydate - now)/ 864e5*24*60;</code></li><li class="alt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">document.write(subtract);</code></li><li class="alt2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">&lt;/</code><code class="keyword">SCRIPT</code><code class="plain">&gt;</code></li><li class="alt1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">минут</code></li><li class="alt2">&nbsp;&nbsp;&nbsp;&nbsp;<code class="plain">&lt;/</code><code class="keyword">body</code><code class="plain">&gt;</code></li><li class="alt1"><code class="plain">&lt;/</code><code class="keyword">html</code><code class="plain">&gt;</code></li></ol></div><div class="slghcr"></div>
 		</div>
 	</section>
 		<footer id="footer" class="footer">
